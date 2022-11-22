@@ -55,11 +55,11 @@ ActiveRecord::Schema.define(version: 2022_11_22_195225) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.string "surname"
     t.string "email"
     t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "surname"
   end
 
   add_foreign_key "line_items", "orders"
