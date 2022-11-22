@@ -1,2 +1,14 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin Dashboard</h1>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    Total Products: <%= @product_count.to_s %>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-body">
+   Total Product Categories: <%= @category_count.to_s %>
+  </div>
+</div>
+
+<a href="/admin/products">Take me to all products</a>
