@@ -1,6 +1,8 @@
 <tr>
   <td>
-    <%= image_tag product.image.tiny.url %>
+    <% if product.image.file.present? %>
+      <%= image_tag product.image.tiny.url %>
+    <% end %>
   </td>
   <td>
     <h4><%= product.name %></h4>
