@@ -13,6 +13,12 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
 
+## Screenshots
+!["Jungle home page"]("https://github.com/TripEEE/jungle/blob/master/docs/jungle-home.png?raw=true")
+!["Jungle home gallery"]("https://github.com/TripEEE/jungle/blob/master/docs/jungle-home-gallery.png?raw=true")
+!["Jungle admin products"](https://github.com/TripEEE/jungle/blob/master/docs/jungle-admin-products.png?raw=true_)
+!["Jungle cart"]("https://github.com/TripEEE/jungle/blob/master/docs/jungle-cart.png?raw=true")
+
 ## Database
 
 If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
