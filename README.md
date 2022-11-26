@@ -14,10 +14,10 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 8. Run `bin/rails s -b 0.0.0.0` to start the server
 
 ## Screenshots
-!["Jungle home page"]("https://github.com/TripEEE/jungle/blob/master/docs/jungle-home.png?raw=true")
-!["Jungle home gallery"]("https://github.com/TripEEE/jungle/blob/master/docs/jungle-home-gallery.png?raw=true")
+!["Jungle home page"](https://github.com/TripEEE/jungle/blob/master/docs/jungle-home.png?raw=true)
+!["Jungle home gallery"](https://github.com/TripEEE/jungle/blob/master/docs/jungle-home-gallery.png?raw=true)
 !["Jungle admin products"](https://github.com/TripEEE/jungle/blob/master/docs/jungle-admin-products.png?raw=true_)
-!["Jungle cart"]("https://github.com/TripEEE/jungle/blob/master/docs/jungle-cart.png?raw=true")
+!["Jungle cart"](https://github.com/TripEEE/jungle/blob/master/docs/jungle-cart.png?raw=true)
 
 ## Database
 
